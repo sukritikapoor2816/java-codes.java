@@ -1,7 +1,5 @@
 import java.util.ArrayList;
-
 public class ArrayL {
-    @SuppressWarnings("StringConcatenationInsideStringBufferAppend")
     public static void main(String[] args) {
 
         // Create an ArrayList to store tasks
@@ -19,7 +17,7 @@ public class ArrayL {
         sb.append("-----------------\n");
 
         for (int i = 0; i < tasks.size(); i++) {
-            sb.append((i + 1) + ". ");
+            sb.append(i + 1).append(". ");
             sb.append(tasks.get(i));
             sb.append("\n");
         }
@@ -36,7 +34,7 @@ public class ArrayL {
         sb.append("---------------------\n");
 
         for (int i = 0; i < tasks.size(); i++) {
-            sb.append((i + 1) + ". ");
+            sb.append(i).append(1).append(". ");
             sb.append(tasks.get(i));
             sb.append("\n");
         }
