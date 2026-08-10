@@ -1,7 +1,7 @@
 import java.util.ArrayList;
 
 public class ArrayL {
-
+    @SuppressWarnings("StringConcatenationInsideStringBufferAppend")
     public static void main(String[] args) {
 
         // Create an ArrayList to store tasks
