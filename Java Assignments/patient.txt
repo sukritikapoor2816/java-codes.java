@@ -1,4 +1,0 @@
-Patient ID: 12334
-Patient Name: chahat
-Age: 23
-Diagnosis: anemia
