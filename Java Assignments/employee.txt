@@ -1,4 +1,0 @@
-Employee ID: 1234
-Employee Name: arav
-Department: cse
-Salary: 590000.0
